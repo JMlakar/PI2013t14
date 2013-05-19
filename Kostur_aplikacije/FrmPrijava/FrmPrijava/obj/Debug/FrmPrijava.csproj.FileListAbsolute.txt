@@ -1,0 +1,9 @@
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\bin\Debug\FrmPrijava.exe.config
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\bin\Debug\FrmPrijava.exe
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\bin\Debug\FrmPrijava.pdb
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\obj\Debug\FrmPrijava.csprojResolveAssemblyReference.cache
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\obj\Debug\FrmPrijava.FrmPrijava.resources
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\obj\Debug\FrmPrijava.Properties.Resources.resources
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\obj\Debug\FrmPrijava.csproj.GenerateResource.Cache
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\obj\Debug\FrmPrijava.exe
+C:\Users\JM\Desktop\Projekt\FrmPrijava\FrmPrijava\obj\Debug\FrmPrijava.pdb

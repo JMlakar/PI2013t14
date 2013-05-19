@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD8D527B-818C-4099-9075-63D42ED29446}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrmPrijava</RootNamespace>
+    <AssemblyName>FrmPrijava</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmSviCjenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSviCjenici.Designer.cs">
+      <DependentUpon>FrmSviCjenici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCjenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCjenici.Designer.cs">
+      <DependentUpon>FrmCjenici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCRM.Designer.cs">
+      <DependentUpon>FrmCRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKlijenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKlijenti.Designer.cs">
+      <DependentUpon>FrmKlijenti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKorisnici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKorisnici.Designer.cs">
+      <DependentUpon>FrmKorisnici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKorisnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKorisnik.Designer.cs">
+      <DependentUpon>FrmKorisnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNoviRacun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoviRacun.Designer.cs">
+      <DependentUpon>FrmNoviRacun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPostavkeRacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPostavkeRacuna.Designer.cs">
+      <DependentUpon>FrmPostavkeRacuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPregledObavijesti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPregledObavijesti.Designer.cs">
+      <DependentUpon>FrmPregledObavijesti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrijava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrijava.Designer.cs">
+      <DependentUpon>FrmPrijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsluge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsluge.Designer.cs">
+      <DependentUpon>FrmUsluge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmSviCjenici.resx">
+      <DependentUpon>FrmSviCjenici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCjenici.resx">
+      <DependentUpon>FrmCjenici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCRM.resx">
+      <DependentUpon>FrmCRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKlijenti.resx">
+      <DependentUpon>FrmKlijenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKorisnici.resx">
+      <DependentUpon>FrmKorisnici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKorisnik.resx">
+      <DependentUpon>FrmKorisnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoviRacun.resx">
+      <DependentUpon>FrmNoviRacun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPostavkeRacuna.resx">
+      <DependentUpon>FrmPostavkeRacuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPregledObavijesti.resx">
+      <DependentUpon>FrmPregledObavijesti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrijava.resx">
+      <DependentUpon>FrmPrijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsluge.resx">
+      <DependentUpon>FrmUsluge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
